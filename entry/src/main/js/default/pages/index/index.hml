@@ -1,0 +1,14 @@
+<stack class="stack">
+    <image src='/common/images/Mirage.png' class="background"></image>
+    <div class="container" onswipe="touchMove">
+        <text class="title">
+            {{time}}
+        </text>
+        <div class="row">
+
+            <image src="{{imgSrc}} "class="stopWatchButtons" onclick="startOrPause"></image>
+            <image src="/common/images/stop-button.png" class="stopWatchButtons" onclick="reset"></image>
+        </div>
+    </div>
+</stack>
+

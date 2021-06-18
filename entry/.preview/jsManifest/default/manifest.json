@@ -1,0 +1,17 @@
+{
+    "appID": "com.example.stopwatch",
+    "appName": "$string:entry_MainAbility",
+    "versionName": "1.0.0",
+    "versionCode": 1000000,
+    "minPlatformVersion": 5,
+    "pages": [
+        "pages/index/index"
+    ],
+    "deviceType": [
+        "wearable"
+    ],
+    "window": {
+        "designWidth": 454,
+        "autoDesignWidth": true
+    }
+}

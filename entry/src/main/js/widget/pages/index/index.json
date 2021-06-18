@@ -1,0 +1,17 @@
+{
+  "data": {
+    "title": "TitleTitleTitleTitleTitleTitleTitleTitle",
+    "detail": "TextTextTextTextTextTextTextTextTextText",
+    "iconTitle": "Picture"
+  },
+  "actions": {
+    "routerEvent": {
+      "action": "router",
+      "bundleName": "com.example.stopwatch",
+      "abilityName": "com.example.stopwatch.widget.widget.WidgetAbility",
+      "params": {
+        "message": "add detail"
+      }
+    }
+  }
+}
