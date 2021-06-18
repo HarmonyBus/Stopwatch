@@ -1,3 +1,5 @@
+import app from '@system.app'
+
 let startTime;
 let elapsedTime = 0;
 let timerInterval;
@@ -35,9 +37,12 @@ export default {
     touchMove(e) { // Handle the swipe event.
         if (e.direction == "right") // Swipe right to exit.
         {
-
+            this.appExit();
         }
     },
+    appExit(){  // Exit the application.
+        app.terminate();
+    }
 }
 function timeToString(time) {
     // milliseconds to hours
